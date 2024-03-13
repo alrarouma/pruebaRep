@@ -87,4 +87,7 @@ public class Date {
       return false;
     }
   }
+  public void printDate(){
+    System.out.println("Date: " + day + "/" + month + "/" + year);
+  }
 }
